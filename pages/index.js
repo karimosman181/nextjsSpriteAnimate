@@ -7,13 +7,11 @@ import { useLayoutEffect, useRef, useEffect } from "react";
 
 import Link from "next/link";
 
+import Asprite from "@/components/asprite";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-
-
-
-
   return (
     <>
       <Head>
@@ -23,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-       
+       <Asprite />
       </main>
     </>
   );
